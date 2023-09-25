@@ -14,7 +14,7 @@
             h2Ele.innerHTML = "What is "+op1+" plus "+op2+" ?";
             break;
         case "-":
-            result = op2-op1;
+            result = op1-op2;
             h2Ele.innerHTML = "What will be "+op1+" subtracted by "+op2+" ?";
             break;
         case "*":

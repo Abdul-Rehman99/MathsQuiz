@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu','Poppins', sans-serif; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 100vh;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+input{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Ubuntu','Poppins', sans-serif;
+    text-align: center;
+    border: 3px solid green;
+    outline: none;
+    color: green;
+}
+input::placeholder{
+    font-family: 'Ubuntu','Poppins', sans-serif;
+}
+button{
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Ubuntu','Poppins', sans-serif;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+p{
+    color: green;
+    font-weight:900;
+}

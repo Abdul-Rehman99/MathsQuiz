@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+/*CSS Start*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu','Poppins', sans-serif; 
+    font-family: cursive, sans-serif; 
 }
 body{
     display: flex;
@@ -25,19 +25,19 @@ body{
 input{
     font-size: 25px;
     padding: 10px;
-    font-family: 'Ubuntu','Poppins', sans-serif;
+    font-family: cursive, sans-serif; 
     text-align: center;
     border: 3px solid green;
     outline: none;
     color: green;
 }
 input::placeholder{
-    font-family: 'Ubuntu','Poppins', sans-serif;
+    font-family: cursive, sans-serif; 
 }
 button{
     font-size: 25px;
     padding: 10px;
-    font-family: 'Ubuntu','Poppins', sans-serif;
+    font-family: cursive, sans-serif; 
     background-color: green;
     color: #fff;
     border: none;
